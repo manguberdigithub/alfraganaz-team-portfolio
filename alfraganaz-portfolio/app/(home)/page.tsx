@@ -1,19 +1,19 @@
 /*----------Import Components from Index.tsx-------------*/
-import { Header } from "@/components";
-import { Navbar } from "@/components";
-import { Portfolios } from "@/components";
-import { Footer } from "@/components";
+import { 
+  Header,
+  Portfolios,
+  Footer
+ } from "@/components";
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {
   return (
-    <main>
-      <Navbar />
+    <div>
       {/* Header include  Navbar and Hero components*/}
       <Header />
       {/* 
       <Portfolios />
       <Footer /> */}
-    </main>
+    </div>
   );
 };
 export default Home;
