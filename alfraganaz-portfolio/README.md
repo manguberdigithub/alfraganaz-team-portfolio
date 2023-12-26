@@ -10,12 +10,14 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-npm install
-npm run dev
-
 1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/manguberdigithub/alfraganaz-team-portfolio.git
-   cd your-repository
+   cd alfraganaz-team
    ```
+
+2. **Installing Dependencies:**
+   npm install
+3. **Run the code:**
+   npm run dev
