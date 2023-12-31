@@ -12,10 +12,13 @@ interface ServiceProps {
 		tags: string[]
 		tex: {
 			title: string,
-			tags: Object[]
+			texs: {
+				src: string,
+				title: string
+			}[]
 		}
 	};
-	index: string;
+	index: number;
 }
 
 const Service: React.FC<ServiceProps> = ({data, index}) => {
@@ -41,7 +44,7 @@ const Service: React.FC<ServiceProps> = ({data, index}) => {
 				<div className="flex flex-row gap-10 mt-4">	
 					{
 						data.tex?.texs && data.tex.texs.map((tag, index) => (
-							<div className="flex flex-col justify-between items-center gap-2">
+							<div key={index} className="flex flex-col justify-between items-center gap-2">
 								<Image src={tag.src} width={40} height={40} alt={tag.title} />
 								<span key={index} className="relative text-xs font-bold text-black ">{tag.title}</span>
 							</div>

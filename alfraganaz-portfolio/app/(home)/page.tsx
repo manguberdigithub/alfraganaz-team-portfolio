@@ -1,4 +1,12 @@
-import { Contact, Header, OurProcess, Section, Projects, Services, Team } from "@/components";
+import {
+      Contact, 
+      Header, 
+      OurProcess, 
+      Section, 
+      Projects, 
+      Services, 
+      Team 
+} from "@/components";
 
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {

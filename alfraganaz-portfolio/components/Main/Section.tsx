@@ -4,8 +4,8 @@ import Image from "next/image";
 
 interface SectionProps {
 	title: string;
-	disc: string;
-	subTitle: string;
+	disc?: string;
+	subTitle?: string;
 	children: React.ReactNode;
 }
 
@@ -19,7 +19,7 @@ const Section: React.FC<SectionProps> = ({title, disc, subTitle, children }) => 
         <h2 className="text-5xl text-bold text-black xl:text-4xl lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl">
           {title}
         </h2>
-	<span className="w-[450px] text-base text-medium mt-1 xl:text-sm lg:text-sm md:text-sm sm:text-xs xs:text-xs">
+	      <span className="w-[450px] text-base text-medium mt-1 xl:text-sm lg:text-sm md:text-sm sm:text-xs xs:text-xs">
           {subTitle}
         </span>
       </div>

@@ -154,7 +154,7 @@ export const teamList = [
 	{
 		id: 3,
 		fullName: "Falonch Fistonchi",
-		title: "",
+		title: "Web dasturchi",
 		src: "",
 		social: [
 			{src: "/team/icons/i.png", to: "#"},

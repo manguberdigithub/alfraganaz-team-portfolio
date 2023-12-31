@@ -12,7 +12,7 @@ interface ProjectProps {
 		text: string,
 		tags: string[]
 	};
-	index: string;
+	index: number;
 }
 
 const Project: React.FC<ProjectProps> = ({data, index}) => {
