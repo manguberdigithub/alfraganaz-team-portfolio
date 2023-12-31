@@ -1,4 +1,4 @@
-import { Contact, Header, OurProcess, Section, Projects, Services } from "@/components";
+import { Contact, Header, OurProcess, Section, Projects, Services, Team } from "@/components";
 
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {
@@ -12,7 +12,12 @@ const Home: React.FC = () => {
       <Section title="QILA OLAMIZ" disc="NIMALAR">
 	<Services />
       </Section>
-      <OurProcess />
+      <Section title="BIZNING JAMOA" subTitle="Sizning buyurtmangizni sifatli, ishonchli va xavfsiz qilib beradigan shu jamoa bo'ladi.">
+	<Team />
+      </Section>
+      <Section title="JARAYONIMIZ" disc="ISHLASH">
+	<OurProcess />
+      </Section>
       <Contact />
     </div>
   );

@@ -22,7 +22,7 @@ const Service: React.FC<ServiceProps> = ({data, index}) => {
   const isRew = index % 2 != 0;
   return (
       <div className="w-full bg-zinc-100">
-	<div className={`flex flex-col items-center w-full md:max-h-[300px] lg:max-h-[500px] ${isRew ? "md:flex-row-reverse lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse bg-white" : "md:flex-row lg:flex-row xl:flex-row 2xl:flex-row"} rounded-md hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700`}>
+	<div className={`flex flex-col items-center w-full md:max-h-[600px] lg:max-h-[500px] ${isRew ? "md:flex-row-reverse lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse bg-white" : "md:flex-row lg:flex-row xl:flex-row 2xl:flex-row"} rounded-md hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700`}>
 		<Image src={data.src} width={500} height={400} alt="" className="object-cover w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2" />
     		<div className="flex flex-col justify-between p-5 md:py-5 leading-normal">
         		<div className="relative">

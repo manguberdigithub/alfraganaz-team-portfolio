@@ -10,5 +10,7 @@ import Projects from "./Main/Projects";
 import Project from "./Main/Project";
 import Services from "./Main/Services";
 import Service from "./Main/Service";
+import Team from "./Main/Team";
+import Card from "./Main/Card";
 
-export { Navbar, Header, Hero, Section, Projects, Project, Services, Service, OurProcess, Contact, Footer };
+export { Navbar, Header, Hero, Section, Projects, Project, Services, Service, Team, Card, OurProcess, Contact, Footer };

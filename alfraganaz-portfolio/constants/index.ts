@@ -127,3 +127,50 @@ export const servicesList = [
 		}
 	}
 ]
+
+export const teamList = [
+	{
+		id: 1,
+		fullName: "Falonch Fistonchi",
+		title: "Web Dasturchi",
+		src: "",
+		social: [
+			{src: "/team/icons/i.png", to: "#"},
+			{src: "/team/icons/t.png", to: "#"},
+			{src: "/team/icons/tw.png", to: "#"}
+		]
+	},
+	{
+		id: 2,
+		fullName: "Falonch Fistonchi",
+		title: "Web Dasturchi",
+		src: "",
+		social: [
+			{src: "/team/icons/i.png", to: "#"},
+			{src: "/team/icons/t.png", to: "#"},
+			{src: "/team/icons/tw.png", to: "#"}
+		]
+	},
+	{
+		id: 3,
+		fullName: "Falonch Fistonchi",
+		title: "",
+		src: "",
+		social: [
+			{src: "/team/icons/i.png", to: "#"},
+			{src: "/team/icons/t.png", to: "#"},
+			{src: "/team/icons/tw.png", to: "#"}
+		]
+	},
+	{
+		id: 4,
+		fullName: "Falonch Fistonchi",
+		title: "Web Dasturchi",
+		src: "",
+		social: [
+			{src: "/team/icons/i.png", to: "#"},
+			{src: "/team/icons/t.png", to: "#"},
+			{src: "/team/icons/tw.png", to: "#"}
+		]
+	}
+]
