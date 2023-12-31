@@ -1,4 +1,4 @@
-import { Contact, Header, OurProcess } from "@/components";
+import { Contact, Header, OurProcess, Section, Projects } from "@/components";
 
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {
@@ -6,6 +6,9 @@ const Home: React.FC = () => {
     <div>
       {/* Header include  Navbar and Hero components*/}
       <Header />
+      <Section title="LOYHALARIMIZ" disc="BIZNING">
+	<Projects />
+      </Section>
       <OurProcess />
       <Contact />
     </div>
