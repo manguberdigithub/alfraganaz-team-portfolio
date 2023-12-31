@@ -40,3 +40,90 @@ export const projectsList = [
 		tags: ["Web sayt", "TG bot", "Node"]
 	},
 ]
+
+export const servicesList = [
+	{
+		id: 1,
+		src: "/services/s1.png",
+		title: "Web dasturlar",
+		text: "Biznesingizni ommaga tanitib beruvchi va toza, ko'p sonli mijozlar oqimini ta'minlab beruvchi yengil, tezkor veb saytlar taqdim qila olamiz. Buning uchun bir piyola ko'k choy ustida loyiha boshlanmalarini loyiha menejerimiz bilan kelishib olish kifoya",
+		tags: ["Frontend", "Backend", "QA Testing"],
+		tex: {
+			title: "Texnalogiyalar",
+			texs: [
+				{
+					title: "Node jS",
+					src: "/services/icons/sin.png"
+				},
+				{
+					title: "Next JS",
+					src: "/services/icons/sine.png"	
+				},
+				{
+					title: "Git",
+					src: "/services/icons/sig.png"	
+				},
+				{
+					title: "Sass",
+					src: "/services/icons/sis.png"	
+				}
+			]
+		}
+	},
+	{
+		id: 2,
+		src: "/services/s2.png",
+		title: "SRM va ERP tizimlar",
+		text: "Sizda hali ham kelishuvlar, savdolar, mijozlar eski katta sariq daftarda yuritiladimi? Qo'yavering eee! Biz sizga raqamli, zamonaviy yechimlar taklif qilamiz: CRM va ERP",
+		tags: ["Frontend", "Backend", "QA Testing"],
+		tex: {
+			title: "Texnalogiyalar",
+			texs: [
+				{
+					title: "Node jS",
+					src: "/services/icons/sin.png"
+				},
+				{
+					title: "React JS",
+					src: "/services/icons/sir.png"	
+				},
+				{
+					title: "Git",
+					src: "/services/icons/sig.png"	
+				},
+				{
+					title: "Sass",
+					src: "/services/icons/sis.png"	
+				}
+			]
+		}
+	},
+	{
+		id: 3,
+		src: "/services/s3.png",
+		title: "Telegram botlar",
+		text: "Haaa, Telegram O'zbekistonda mashhur bo'lib ketdi. Qarasang, bo'sh vaqt bo'ldi deguncha hamma Telegramda. Siz ham mijozlarni Telegramdan oson chaqirasiz. Shuning uchun bizga bot buyurtma bering. Tez. Ishonchli. Xavfsiz.",
+		tags: ["Telegram bot", "Admin panel", "QA Testing"],
+		tex: {
+			title: "Texnalogiyalar",
+			texs: [
+				{
+					title: "Bot",
+					src: "/services/icons/sit.png"
+				},
+				{
+					title: "Node JS",
+					src: "/services/icons/sin.png"	
+				},
+				{
+					title: "Git",
+					src: "/services/icons/sig.png"	
+				},
+				{
+					title: "Sass",
+					src: "/services/icons/sis.png"	
+				}
+			]
+		}
+	}
+]
