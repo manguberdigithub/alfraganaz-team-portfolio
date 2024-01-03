@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
 
   return (
     <div className="w-full flex  justify-between h-[800px] px-[300px] py-[225px] 2xl:px-[230px] xl:px-[155px] lg:px-[140px] xl:h-[720px] lg:h-[700px] xl:py-[175px] md:py-[100px] md:h-[650px] md:px-[70px]  md:gap-6 sm:px-[40px] sm:flex-col sm:justify-center sm:py-[50px] xs:px-[25px] xs:flex-col  xs:py-[35px] xs:h-[500px] ">
-      <div className="w-[530px] h-full lg:w-[450px] md:w-[270px] sm:h-[240px] xs:h-[200px] xs:w-[90%] border ">
+      <div className="w-[530px] h-full lg:w-[450px] md:w-[270px] sm:h-[240px] xs:h-[200px] xs:w-[90%]">
         <span className="w-[180px] h-[20px] text-black font-montserrat text-base md:text-sm md:h-[16px] xs:text-sm xs:h-[14px]">
           Yangi go'yalar bormi?
         </span>
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
           AMALGA OSHIRING!
         </h3>
       </div>
-      <div className="w-[660px] h-[90%] flex flex-col border justify-between px-[15px] xl:w-[600px] lg:w-[550px] lg:h-[100%] md:w-[400px] md:h-[250px] md:px-[0px] sm:w-full sm:h-[250px] xs:w-full xs:h-[250px] xs:px-[0px]">
+      <div className="w-[660px] h-[90%] flex flex-col justify-between px-[15px] xl:w-[600px] lg:w-[550px] lg:h-[100%] md:w-[400px] md:h-[250px] md:px-[0px] sm:w-full sm:h-[250px] xs:w-full xs:h-[250px] xs:px-[0px]">
         <div className="w-full flex justify-between space-x-4 md:space-x-2">
           <div>
             <input
