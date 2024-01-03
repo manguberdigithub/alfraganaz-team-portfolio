@@ -1,19 +1,15 @@
-/*----------Import Components from Index.tsx-------------*/
-import { 
-  Header,
-  Portfolios,
-  Footer
- } from "@/components";
+import { Contact, Header, OurProcess } from "@/components";
+
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {
   return (
     <div>
       {/* Header include  Navbar and Hero components*/}
       <Header />
-      {/* 
-      <Portfolios />
-      <Footer /> */}
+      <OurProcess />
+      <Contact />
     </div>
   );
 };
+
 export default Home;

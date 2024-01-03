@@ -29,8 +29,8 @@ const Navbar: React.FC = () => {
     <nav
       className={`${
         isNavbarFixed
-          ? "fixed top-0 w-full z-40 h-24 pr-40 pl-44 pt-4  bg-white border-b-4  border-zinc-500 flex justify-between item-center  3xl:pl-60 3xl:pr-80 2xl:pl-50 2xl:pr-60 lg:pr-32 lg:pl-36 md:h-16 md:pr-16 md:pl-20 md:pt-2 sm:h-14 sm:pt-0 sm:pl-8 sm:pr-4 xs:h-14 xs:pt-2  xs:pl-4 xs:pr-3"
-          : "w-full z-40 h-24 pr-40 pl-44 pt-4  bg-light flex justify-between item-center ease-in-out  3xl:pl-60 3xl:pr-80 2xl:pl-50 2xl:pr-60 lg:pr-32 lg:pl-36 md:h-16 md:pr-16 md:pl-20 md:pt-2  sm:pl-8 sm:pr-0 sm:h-14 sm:pt-0 xs:h-14 xs:pt-2 xs:pl-4 xs:pr-3"
+          ? "fixed top-0 w-full z-50 h-24 pr-40 pl-44 pt-4  bg-white border-b-4  border-zinc-500 flex justify-between item-center  3xl:pl-60 3xl:pr-80 2xl:pl-50 2xl:pr-60 xl:pl-36 lg:pr-32 lg:pl-36 md:h-16 md:pr-16 md:pl-20 md:pt-2 sm:h-14 sm:pt-0 sm:pl-8 sm:pr-4 xs:h-14 xs:pt-2  xs:pl-4 xs:pr-3"
+          : "w-full z-50 h-24 pr-40 pl-44 pt-4  bg-light flex justify-between item-center ease-in-out  3xl:pl-60 3xl:pr-80 2xl:pl-50 2xl:pr-60 xl:pl-36 lg:pr-32 lg:pl-36 md:h-16 md:pr-16 md:pl-20 md:pt-2  sm:pl-8 sm:pr-0 sm:h-14 sm:pt-0 xs:h-14 xs:pt-2 xs:pl-4 xs:pr-3"
       }`}
     >
       {/* Logo */}
@@ -41,11 +41,12 @@ const Navbar: React.FC = () => {
           className="md:w-40 md:h-12 sm:w-36 sm:h-12 xs:w-32 xs:h-10"
           width="208"
           height="69"
+          priority
         />
       </Link>
       {/* Navbar Contact */}
       <div className={isOpen ? "mobile-menu" : "mobile-menu active"}>
-        <div className="w-38 h-full  flex justify-between items-center">
+        <div className="w-32 h-full  flex justify-between items-center md:w-44">
           <Image src="/Phone.svg" alt="Phone_icon" width="20" height="20" />
 
           <p className="w-28 h-6  font-montserrat font-semibold text-xs">
