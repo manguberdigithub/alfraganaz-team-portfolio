@@ -29,7 +29,7 @@ const config: Config = {
         "64": "4rem",
       },
       screens: {
-        xs: { min: "360px", max: "639px" },
+        xs: { min: "359px", max: "639px" },
         // (min-width: 360px and max-width: 639px)
         sm: { min: "640px", max: "767px" },
         //  (min-width: 640px and max-width: 767px)

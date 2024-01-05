@@ -4,9 +4,9 @@ import { Hero } from "..";
 
 const Header: React.FC = () => {
   return (
-    <div>
+    <>
       <Hero />
-    </div>
+    </>
   );
 };
 

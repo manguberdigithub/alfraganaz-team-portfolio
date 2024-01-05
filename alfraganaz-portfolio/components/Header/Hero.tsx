@@ -1,10 +1,12 @@
+"use client";
 import React from "react";
 import { heroGroup } from "@/constants";
-
 const Hero: React.FC = () => {
   return (
-    <div className="w-full h-auto pt-36 pb-16 pl-36  pr-28 bg-[url('/header-bg.png')] bg-cover bg-center md:pr-12 md:pl-24 sm:pl-10 xs:pl-6 xs:pr-0">
-      <div className="w-100 absolute bottom-0 left-0 right-0 top-24 md:top-16 sm:top-14 xs:top-14 bg-gradient-to-r from-gradient to-transparent"></div>
+    <div
+      className="w-full h-auto relative  pt-36 pb-16 pl-36 pr-28 bg-[url('/header-bg.png')] bg-cover bg-center bg-no-repeat md:pr-12 md:pl-24 sm:pl-10 xs:pl-6 xs:pr-0 after:w-100 after:absolute after:inset-0 after:bg-gradient-to-r after:from-gradient after:to-transparent
+    "
+    >
       <div className="w-full h-125 flex flex-col justify-between z-40">
         {/* Hero Content */}
         <div className="w-full h-64 z-30  flex flex-col justify-between 3xl:pl-24 3xl:w-4/5 2xl:w-5/6 2xl:pl-16 xl:w-full lg:h-48 sm:w-full md:h-60 xs:h-52">
