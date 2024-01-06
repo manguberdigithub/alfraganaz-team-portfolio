@@ -1,4 +1,4 @@
-import { Contact, Header, OurProcess } from "@/components";
+import { Contact, Footer, Header, OurProcess } from "@/components";
 
 /*----------/Import Components from Index.tsx-------------*/
 const Home: React.FC = () => {
@@ -8,6 +8,7 @@ const Home: React.FC = () => {
       <Header />
       <OurProcess />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -13,7 +13,7 @@ const OurProcess: React.FC = () => {
           JARAYONIMIZ
         </div>
       </div>
-      <div className="w-full h-[752px] bg-black py-[75px] px-[160px]  flex justify-between 3xl:px-[240px] md:px-[100px] sm:px-[50px] xs:px-[35px]">
+      <div className="w-full h-[752px] bg-black py-[75px] px-[160px]  flex justify-between 3xl:px-[240px] md:h-[650px] sm:h-[600px] md:px-[100px] sm:px-[50px] xs:px-[35px]">
         <div className="w-full grid grid-rows-2 grid-flow-col justify-between xs:grid-rows-3 xs:justify-center xs:gap-x-20 xs:gap-y-6">
           {processGroup.map((item) => (
             <div
@@ -25,7 +25,7 @@ const OurProcess: React.FC = () => {
                 alt={item.text}
                 width={110}
                 height={110}
-                className="md:w-[80px] md:h-[80px] sm:w-[80px] sm:h-[80px] xs:w-[60px] xs:h-[60px]"
+                className="md:w-[80px]  sm:w-[80px]  xs:w-[50px] "
               />
               <h5 className="text-light-grey text-2xl text-semibold w-[146px] h=[87px] text-center md:text-xl  sm:text-lg xs:text-lg">
                 {item.text}

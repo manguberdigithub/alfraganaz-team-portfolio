@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
@@ -7,6 +8,21 @@ import Link from "next/link";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+
+  // contact section scroll
+  const router = useRouter();
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact-section");
+
+    if (contactSection) {
+      router.push("/#contact-section");
+
+      setTimeout(() => {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      }, 1000);
+    }
+  };
 
   // scroll nav function
   useEffect(() => {
@@ -54,17 +70,20 @@ const Navbar: React.FC = () => {
           </p>
         </div>
         <span className="w-0.5 h-10 mr-2 rounded-md  bg-bluish-green md:h-8  md:mr-2 sm:hidden xs:hidden"></span>
-        <button className="w-40 h-3/5  bg-black text-light-grey hover:bg-zinc-600  rounded-lg font-montserrat  font-bold md:w-32 md:h-4/5">
+        <button
+          onClick={scrollToContact}
+          className="w-40 h-3/5  bg-black text-light-grey hover:bg-zinc-600  rounded-lg font-montserrat  font-bold md:w-32 md:h-4/5 md:text-[14px] sm:text-[14px] xs:text-[14px] sm:w-[120px] xs:w-[120px]"
+        >
           bog'lanish
         </button>
       </div>
       {/* Toggle button */}
       <button
         onClick={toggleMenu}
-        className="invisible hidden text-black p-0 w-20 h-20 sm:visible sm:block xs:visible xs:block sm:focus:outline-none   absolute right-0 top-0 sm:top-[-8px] xs:top-[-8px] "
+        className="invisible hidden text-black p-0 w-20 h-20 sm:visible sm:block xs:visible xs:block sm:focus:outline-none   absolute right-[0px] top-0 sm:top-[-8px] xs:top-[-8px] "
       >
         {isOpen ? (
-          <Image src="/cancel.svg" alt="cancel" width="18" height="18" />
+          <Image src="/cancel.svg" alt="cancel" width="14" height="14" />
         ) : (
           <Image src="/menu.svg" alt="menu-bar" width="20" height="20" />
         )}
